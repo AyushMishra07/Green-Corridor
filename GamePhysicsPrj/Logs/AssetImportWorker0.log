@@ -1,0 +1,314 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.3f1 (32358a8527b4) revision 3290506'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 7599 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/asus/OneDrive/Desktop/Projects/Unity projects/GamePhysicsPrj
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53718
+Successfully changed project path to: C:/Users/asus/OneDrive/Desktop/Projects/Unity projects/GamePhysicsPrj
+C:/Users/asus/OneDrive/Desktop/Projects/Unity projects/GamePhysicsPrj
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 87.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.3f1 (32358a8527b4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/asus/OneDrive/Desktop/Projects/Unity projects/GamePhysicsPrj/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   30.0.14.9676
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009461 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 81.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.680 seconds
+Domain Reload Profiling:
+	ReloadAssembly (681ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (492ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (113ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (284ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015023 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\asus\OneDrive\Desktop\Projects\Unity projects\GamePhysicsPrj\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\asus\OneDrive\Desktop\Projects\Unity projects\GamePhysicsPrj\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.254 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1255ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (944ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (283ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (418ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3210 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (112.2 KB). Loaded Objects now: 3691.
+Memory consumption went from 135.1 MB to 135.0 MB.
+Total: 3.648400 ms (FindLiveObjects: 0.385900 ms CreateObjectMapping: 0.094000 ms MarkObjects: 2.974200 ms  DeleteObjects: 0.193100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18244.852697 seconds.
+  path: Assets/Scenes.unity
+  artifactKey: Guid(41632ce170d1664428fa5aa21bd33700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes.unity using Guid(41632ce170d1664428fa5aa21bd33700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ff2c3e5028bfe95dea43da411144a6') in 0.025656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 363.358463 seconds.
+  path: Assets/QC.Ambulance
+  artifactKey: Guid(1c9117f12eb70d84d9992daf08b4c7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance using Guid(1c9117f12eb70d84d9992daf08b4c7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90401d353c7a4a53d171fd7fce800e98') in 0.008773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033920 seconds.
+  path: Assets/QC.Ambulance/Ambulance.blend
+  artifactKey: Guid(dcfa6bd15bef4cc4bbad6271d5d1f5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Ambulance.blend using Guid(dcfa6bd15bef4cc4bbad6271d5d1f5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56178e9d459d9f81db2922a037aa0e6') in 1.765810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.757485 seconds.
+  path: Assets/QC.Ambulance/Textures
+  artifactKey: Guid(cd390610714e470468dd545a464da95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Textures using Guid(cd390610714e470468dd545a464da95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8a25aaf8a6fd8a042c8cf64e7631b1') in 0.009272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050503 seconds.
+  path: Assets/QC.Ambulance/Textures/0000.bmp
+  artifactKey: Guid(793cc59fc80fe3d48b5722abfb1119ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Textures/0000.bmp using Guid(793cc59fc80fe3d48b5722abfb1119ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12e6d4def2b5d76b8a3d2a89f60d035') in 0.045389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/QC.Ambulance/Textures/decala.bmp
+  artifactKey: Guid(d0cf4beb6f4b6964a9ad8e4fd1ca7059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Textures/decala.bmp using Guid(d0cf4beb6f4b6964a9ad8e4fd1ca7059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e215d09f547ee46d32eb878704a654') in 0.027046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/QC.Ambulance/Textures/bpm.bmp
+  artifactKey: Guid(e19e606196c5a384abeefb9c9f76bf06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Textures/bpm.bmp using Guid(e19e606196c5a384abeefb9c9f76bf06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003ac3dcbe51fd3c29b6f4ff20d0bc6e') in 0.426142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/QC.Ambulance/Textures/dsa.bmp
+  artifactKey: Guid(ea3ae2ebc4455464881232f2a29b138d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Textures/dsa.bmp using Guid(ea3ae2ebc4455464881232f2a29b138d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d482ad6f292971a7dbb8653458c06c') in 0.027696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/QC.Ambulance/Textures/plate.png
+  artifactKey: Guid(70e59ce6e6b08eb4cbfc550cd5c5d66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Textures/plate.png using Guid(70e59ce6e6b08eb4cbfc550cd5c5d66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62113ef88c2e678d8577352d35022695') in 0.022734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/QC.Ambulance/Textures/pneu512.bmp
+  artifactKey: Guid(347fc7e9c7f534c4f8a46c8ce8fa4acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Textures/pneu512.bmp using Guid(347fc7e9c7f534c4f8a46c8ce8fa4acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff43d82cddaadffd13ae856aee4d4ade') in 0.025420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/QC.Ambulance/Textures/dell_laptop.bmp
+  artifactKey: Guid(7d6da2c573d451b45b862208730ba80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Textures/dell_laptop.bmp using Guid(7d6da2c573d451b45b862208730ba80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c34a9bba91817a6ae33138ce2feb580') in 0.035444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/QC.Ambulance/Textures/grill.bmp
+  artifactKey: Guid(9d8edf993f9dc534a9ed160c805d4385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Textures/grill.bmp using Guid(9d8edf993f9dc534a9ed160c805d4385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012c436e85fb7525ae0f6735a8ed5b4d') in 0.022378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/QC.Ambulance/Textures/chrome.bmp
+  artifactKey: Guid(887b2125e016d2b428aa25ef210b6df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Textures/chrome.bmp using Guid(887b2125e016d2b428aa25ef210b6df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f370240f733f1175eb86ec4504626121') in 0.024696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/QC.Ambulance/Textures/vehicle_generic_detail2.bmp
+  artifactKey: Guid(165a5ea44382d32458fa26a1845b7006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Textures/vehicle_generic_detail2.bmp using Guid(165a5ea44382d32458fa26a1845b7006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa514915bc3b6c4df552e9aef0c9a28') in 0.033771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/QC.Ambulance/Textures/remapbody.bmp
+  artifactKey: Guid(845bc6744ae3d3d4aa2d38402d3a0768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Textures/remapbody.bmp using Guid(845bc6744ae3d3d4aa2d38402d3a0768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f561007e4633403be2983c633d88427f') in 0.029394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/QC.Ambulance/Textures/diamondplating.bmp
+  artifactKey: Guid(071cb6752b6d92b479f87a04a4dd3ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Textures/diamondplating.bmp using Guid(071cb6752b6d92b479f87a04a4dd3ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4834917000912333afabbab36263a3') in 0.026821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/QC.Ambulance/Textures/vehicle_generic_truck_interior.bmp
+  artifactKey: Guid(63579ca609eb8a541aab1177529399b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Textures/vehicle_generic_truck_interior.bmp using Guid(63579ca609eb8a541aab1177529399b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579b7febfe14210d61da14dab61c8828') in 0.046170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/QC.Ambulance/Textures/f350_headlights.bmp
+  artifactKey: Guid(ca36fb73b334a0441bd272049002f141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Textures/f350_headlights.bmp using Guid(ca36fb73b334a0441bd272049002f141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded3dce5ffd778e8aaca241e31bd2e3b') in 0.039146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/QC.Ambulance/Textures/gps.bmp
+  artifactKey: Guid(0b87cc8dad8a20e4ab8e2404c41b5391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Textures/gps.bmp using Guid(0b87cc8dad8a20e4ab8e2404c41b5391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d0b086089708203019a645dbe563cc') in 0.046122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/QC.Ambulance/Textures/dash2.bmp
+  artifactKey: Guid(648ec7a2dce3dda45bbecf636d47597e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Textures/dash2.bmp using Guid(648ec7a2dce3dda45bbecf636d47597e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90db1db18091136dafedd9b123f669c0') in 0.028512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.661248 seconds.
+  path: Assets/QC.Ambulance/Materials
+  artifactKey: Guid(144e418a38d533c47af968248b431652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Materials using Guid(144e418a38d533c47af968248b431652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c81127b12a06435939d1b1c2fd1908') in 0.007939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048747 seconds.
+  path: Assets/QC.Ambulance/Materials/0000.mat
+  artifactKey: Guid(481254b8f66f9a845bbb60f54ee5b5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Materials/0000.mat using Guid(481254b8f66f9a845bbb60f54ee5b5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815532e5fa444409dc29f4d45b52d011') in 0.018990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/QC.Ambulance/Materials/plate.mat
+  artifactKey: Guid(fefbddae0bd1e6c45805c950c0e377db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Materials/plate.mat using Guid(fefbddae0bd1e6c45805c950c0e377db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5621ad4547135ee18a33d5670a5a82') in 0.040683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/QC.Ambulance/Materials/decal.mat
+  artifactKey: Guid(0030ff534bd32a549be0dbd964d4f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Materials/decal.mat using Guid(0030ff534bd32a549be0dbd964d4f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641433d3c34f49cf79571ccba3102fc0') in 0.034251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/QC.Ambulance/Materials/vehicle_generic_truck_interior.mat
+  artifactKey: Guid(2f8630092749eef4d9ec93cf317a5d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QC.Ambulance/Materials/vehicle_generic_truck_interior.mat using Guid(2f8630092749eef4d9ec93cf317a5d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e8306703db7b245645a9668cf1d14c') in 0.023914 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
